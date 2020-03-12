@@ -10,6 +10,6 @@ public class Test {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\Tamil\\git\\SauceDemo-TestNG\\drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://toolsqa.com/handling-alerts-using-selenium-webdriver/");
-		
+		System.out.println("added");
 }
 }
