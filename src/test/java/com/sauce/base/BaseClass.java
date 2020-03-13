@@ -2,6 +2,7 @@ package com.sauce.base;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class BaseClass {
 	
@@ -10,13 +11,12 @@ public class BaseClass {
 		public static WebDriver getDriver() {
 			return driver;
 		}
-
-		public static void main(String[] args) {
-			System.setProperty("webdriver.chrome.driver","C:\\Users\\Tamil\\git\\SauceDemo-TestNG\\drivers\\chromedriver.exe");
+		
+		@Test
+		public void open_browser() {
+			System.setProperty("webdriver.chrome.driver",System.getProperty("user.home")+"\\git\\SauceDemo-TestNG\\drivers\\chromedriver.exe");
 			 driver = new ChromeDriver();
 			getDriver().get("http://toolsqa.com/handling-alerts-using-selenium-webdriver/");
-			System.out.println("added");
-			
 			
 		}
 		
