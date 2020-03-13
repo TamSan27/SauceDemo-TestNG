@@ -2,6 +2,7 @@ package com.sauce.base;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 public class BaseClass {
@@ -20,5 +21,9 @@ public class BaseClass {
 			
 		}
 		
+		@AfterTest
+		public void close_browser() {
+			getDriver().close();
+		}
          
 }
