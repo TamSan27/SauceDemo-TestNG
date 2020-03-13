@@ -1,8 +1,20 @@
 package com.sauce.testcases;
 
-public class TestCases {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
-		System.out.println("added");
-	}
+import com.sauce.base.BaseClass;
+import com.sauce.base.MainClass;
+
+public class TestCases extends BaseClass {
+
+	
+@Test
+public void login() {
+	MainClass mainclass;
+	 mainclass = new MainClass();
+	
+     mainclass.Login();
+}
+
+
 }

@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-03-13T06:38:07 IST" name="Default suite" finished-at="2020-03-13T06:38:20 IST" duration-ms="13583">
+  <suite name="Default suite" duration-ms="11731" started-at="2020-03-13T08:49:42 IST" finished-at="2020-03-13T08:49:53 IST">
     <groups>
     </groups>
-    <test started-at="2020-03-13T06:38:07 IST" name="Default test" finished-at="2020-03-13T06:38:20 IST" duration-ms="13583">
-      <class name="com.sauce.base.BaseClass">
-        <test-method signature="open_browser()[pri:0, instance:com.sauce.base.BaseClass@2525ff7e]" started-at="2020-03-13T06:38:07 IST" name="open_browser" finished-at="2020-03-13T06:38:20 IST" duration-ms="13474" status="PASS">
+    <test name="Default test" duration-ms="11731" started-at="2020-03-13T08:49:42 IST" finished-at="2020-03-13T08:49:53 IST">
+      <class name="com.sauce.testcases.TestCases">
+        <test-method status="PASS" signature="open_browser()[pri:0, instance:com.sauce.testcases.TestCases@22a67b4]" name="open_browser" is-config="true" duration-ms="9212" started-at="2020-03-13T08:49:42 IST" finished-at="2020-03-13T08:49:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open_browser -->
-      </class> <!-- com.sauce.base.BaseClass -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.sauce.testcases.TestCases@22a67b4]" name="login" duration-ms="324" started-at="2020-03-13T08:49:51 IST" finished-at="2020-03-13T08:49:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:com.sauce.testcases.TestCases@22a67b4]" name="close_browser" is-config="true" duration-ms="2127" started-at="2020-03-13T08:49:51 IST" finished-at="2020-03-13T08:49:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- com.sauce.testcases.TestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
