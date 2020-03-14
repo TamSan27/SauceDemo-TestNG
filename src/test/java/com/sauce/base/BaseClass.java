@@ -20,6 +20,7 @@ public class BaseClass {
 				System.getProperty("user.home") + "\\git\\SauceDemo-TestNG\\drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		getDriver().get("https://www.saucedemo.com/");
+		System.out.println( "hello");
 	}
 	
 	
