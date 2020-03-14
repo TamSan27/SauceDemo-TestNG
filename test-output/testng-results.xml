@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-14T15:53:47 IST" name="Suite" finished-at="2020-03-14T15:54:03 IST" duration-ms="16046">
+    <groups>
+    </groups>
+    <test started-at="2020-03-14T15:53:47 IST" name="Test" finished-at="2020-03-14T15:54:03 IST" duration-ms="16046">
+      <class name="com.sauce.testcases.TestCases">
+        <test-method is-config="true" signature="open_browser()[pri:0, instance:com.sauce.testcases.TestCases@29647f75]" started-at="2020-03-14T15:53:47 IST" name="open_browser" finished-at="2020-03-14T15:53:58 IST" duration-ms="11168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_browser -->
+        <test-method signature="login()[pri:0, instance:com.sauce.testcases.TestCases@29647f75]" started-at="2020-03-14T15:53:58 IST" name="login" finished-at="2020-03-14T15:54:00 IST" duration-ms="2297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login()[pri:0, instance:com.sauce.testcases.TestCases@29647f75]" started-at="2020-03-14T15:54:00 IST" name="login" finished-at="2020-03-14T15:54:03 IST" duration-ms="2121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="close_browser()[pri:0, instance:com.sauce.testcases.TestCases@29647f75]" started-at="2020-03-14T15:54:03 IST" name="close_browser" finished-at="2020-03-14T15:54:03 IST" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- com.sauce.testcases.TestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

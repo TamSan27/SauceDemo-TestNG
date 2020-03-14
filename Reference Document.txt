@@ -1,1 +1,13 @@
 https://www.saucedemo.com/ - Site which we are going to automate
+
+// Framework overview
+ Master will remain untouched
+ Development will act as Prod mirror (Whatever the changes we do in features will be moved to development first, then to Master)
+ Features (this is the branch where we are going to do our code)
+    - Maven project we are going to use
+        - we will add our all dependencies to pom.xml
+    - TestNG as testing tool
+    - Selenium as a technology
+    - Excel sheet to provide data to the tests 
+ 
+ 
