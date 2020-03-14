@@ -1,5 +1,7 @@
 package com.sauce.base;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
@@ -20,7 +22,7 @@ public class BaseClass {
 				System.getProperty("user.home") + "\\git\\SauceDemo-TestNG\\drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		getDriver().get("https://www.saucedemo.com/");
-		System.out.println( "hello");
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 	
 	
