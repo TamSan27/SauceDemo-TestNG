@@ -21,6 +21,8 @@ public class BaseClass {
 		driver = new ChromeDriver();
 		getDriver().get("https://www.saucedemo.com/");
 	}
+	
+	
 
 	
 	 @AfterTest 

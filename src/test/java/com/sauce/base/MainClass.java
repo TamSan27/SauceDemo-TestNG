@@ -16,9 +16,10 @@ public class MainClass extends BaseClass{
 		
 	}
 
-	public void Login() 
+	public void Login() throws Exception 
 	{
 		loginpage.getUserName().sendKeys("standard_user");
+		Thread.sleep(2000);
 		/*
 		 * getDriver().findElement(By.xpath(LoginPage.password)).sendKeys("secret_sauce"
 		 * ); getDriver().findElement(By.xpath(LoginPage.loginBtn)).click();
