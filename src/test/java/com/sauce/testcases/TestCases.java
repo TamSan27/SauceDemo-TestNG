@@ -12,6 +12,7 @@ public class TestCases extends BaseClass {
 public void login() throws Exception {
 	mainclass = new MainClass();
      mainclass.Login();
+     mainclass.SwagLabs();
 }
 
 

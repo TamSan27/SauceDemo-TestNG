@@ -6,13 +6,16 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
 import com.sauce.pages.LoginPage;
+import com.sauce.pages.SwagLabs;
 
 public class MainClass extends BaseClass{
 
 	//WebDriver driver ;
 	LoginPage loginpage;
+	SwagLabs addtocart;
 	public MainClass() {
 		loginpage = PageFactory.initElements(getDriver(), LoginPage.class);
+		addtocart = PageFactory.initElements(getDriver(), SwagLabs.class);
 		
 	}
 
@@ -28,5 +31,10 @@ public class MainClass extends BaseClass{
 		 */
 	}
 	
+	public void SwagLabs() throws Exception 
+	{
+		addtocart.getFirst_Product().click();
+		Thread.sleep(20000);
+	}
 	
 }

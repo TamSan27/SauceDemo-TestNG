@@ -5,8 +5,9 @@ import org.openqa.selenium.support.FindBy;
 
 import com.sauce.base.BaseClass;
 	
-	public class Swaglabs extends BaseClass{
-		@FindBy(xpath="//button[@class=\"btn_primary btn_inventory\"]")
+	public class SwagLabs extends BaseClass{
+		//@FindBy(xpath="//button[@class=\"btn_primary btn_inventory\"])
+		@FindBy(xpath = "//div//div[@class='inventory_list']//div[1]//div[3]//button[1]")
 		private WebElement First_Product ;
 
 		public WebElement getFirst_Product() {
@@ -16,3 +17,4 @@ import com.sauce.base.BaseClass;
 		
 		
 }
+	
