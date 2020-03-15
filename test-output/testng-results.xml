@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-03-14T20:15:14 IST" name="Suite" finished-at="2020-03-14T20:15:28 IST" duration-ms="13872">
+  <suite name="Default suite" duration-ms="17845" started-at="2020-03-15T10:57:01 IST" finished-at="2020-03-15T10:57:19 IST">
     <groups>
     </groups>
-    <test started-at="2020-03-14T20:15:14 IST" name="Test" finished-at="2020-03-14T20:15:28 IST" duration-ms="13872">
+    <test name="Default test" duration-ms="17845" started-at="2020-03-15T10:57:01 IST" finished-at="2020-03-15T10:57:19 IST">
       <class name="com.sauce.testcases.TestCases">
-        <test-method is-config="true" signature="open_browser()[pri:0, instance:com.sauce.testcases.TestCases@29647f75]" started-at="2020-03-14T20:15:14 IST" name="open_browser" finished-at="2020-03-14T20:15:23 IST" duration-ms="9001" status="PASS">
+        <test-method status="PASS" signature="open_browser()[pri:0, instance:com.sauce.testcases.TestCases@4bbfb90a]" name="open_browser" is-config="true" duration-ms="9620" started-at="2020-03-15T10:57:01 IST" finished-at="2020-03-15T10:57:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open_browser -->
-        <test-method signature="login()[pri:0, instance:com.sauce.testcases.TestCases@29647f75]" started-at="2020-03-14T20:15:23 IST" name="login" finished-at="2020-03-14T20:15:26 IST" duration-ms="2267" status="PASS">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.sauce.testcases.TestCases@4bbfb90a]" name="login" duration-ms="8087" started-at="2020-03-15T10:57:11 IST" finished-at="2020-03-15T10:57:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login()[pri:0, instance:com.sauce.testcases.TestCases@29647f75]" started-at="2020-03-14T20:15:26 IST" name="login" finished-at="2020-03-14T20:15:28 IST" duration-ms="2167" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="close_browser()[pri:0, instance:com.sauce.testcases.TestCases@29647f75]" started-at="2020-03-14T20:15:28 IST" name="close_browser" finished-at="2020-03-14T20:15:28 IST" duration-ms="395" status="PASS">
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:com.sauce.testcases.TestCases@4bbfb90a]" name="close_browser" is-config="true" duration-ms="77" started-at="2020-03-15T10:57:19 IST" finished-at="2020-03-15T10:57:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close_browser -->
       </class> <!-- com.sauce.testcases.TestCases -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

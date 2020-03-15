@@ -8,7 +8,7 @@ import com.sauce.base.MainClass;
 public class TestCases extends BaseClass {
 
 	MainClass  mainclass;
-@Test (invocationCount=2)
+@Test (invocationCount=1)
 public void login() throws Exception {
 	mainclass = new MainClass();
      mainclass.Login();
