@@ -28,11 +28,13 @@ import com.sauce.base.BaseClass;
 		private WebElement AddProduct_Sauce_Labs_Onesie ;
 		
 		
-
+		public WebElement Sauce_Labs_Backpack_Add() {
+			return AddProduct_Sauce_Labs_Backpack;
+		}
 	
 		}
 		
 		
 		
-}
+
 	

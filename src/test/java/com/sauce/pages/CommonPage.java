@@ -8,7 +8,7 @@ public class CommonPage {
 	private WebElement Menu;
 
 	@FindBy(xpath="//*[@data-icon='shopping-cart']")
-	private WebElement Card;
+	private WebElement Cart;
 	
 	@FindBy(xpath="//*[text()='All Items']")
 	private WebElement All_items;
@@ -26,8 +26,8 @@ public class CommonPage {
 		return Menu;
 	}
 
-	public WebElement getCard() {
-		return Card;
+	public WebElement getCart() {
+		return Cart;
 	}
 
 	public WebElement getAll_items() {
