@@ -6,16 +6,16 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
 import com.sauce.pages.LoginPage;
-import com.sauce.pages.SwagLabs;
+import com.sauce.pages.HomePage;
 
 public class MainClass extends BaseClass{
 
 	//WebDriver driver ;
 	LoginPage loginpage;
-	SwagLabs addtocart;
+	HomePage addtocart;
 	public MainClass() {
 		loginpage = PageFactory.initElements(getDriver(), LoginPage.class);
-		addtocart = PageFactory.initElements(getDriver(), SwagLabs.class);
+		addtocart = PageFactory.initElements(getDriver(), HomePage.class);
 		
 	}
 
