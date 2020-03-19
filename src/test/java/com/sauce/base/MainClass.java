@@ -46,6 +46,10 @@ public class MainClass extends BaseClass{
 		 		
 	}
 	
-	
+	public void SwagLabs() throws Exception 
+	{
+		addtocart.getAddToCartProduct_Sauce_Labs_Backpack().click();
+		Thread.sleep(20000);
+	}
 	
 }
