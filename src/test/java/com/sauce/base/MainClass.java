@@ -15,13 +15,11 @@ public class MainClass extends BaseClass{
 
 	//WebDriver driver ;
 	LoginPage loginpage;
-	HomePage addtocart;
 	CartPage cartpage;
 	CommonPage commonpage;
 	HomePage homepage;
 	public MainClass() {
 		loginpage = PageFactory.initElements(getDriver(), LoginPage.class);
-		addtocart = PageFactory.initElements(getDriver(), HomePage.class);
 		commonpage = PageFactory.initElements(getDriver(), CommonPage.class);
 		cartpage = PageFactory.initElements(getDriver(), CartPage.class);
 		homepage = PageFactory.initElements(getDriver(), HomePage.class);
@@ -48,10 +46,61 @@ public class MainClass extends BaseClass{
 		 		
 	}
 	
-	public void SwagLabs() throws Exception 
-	{
-		addtocart.getAddToCartProduct_Sauce_Labs_Backpack().click();
-		Thread.sleep(20000);
+	public void AddToCart__Sauce_Labs_Backpack() {
+		homepage.getAddToCartProduct_Sauce_Labs_Backpack().click();
 	}
 	
+	public void AddToCart_Sauce_Labs_Bike_Light() {
+		homepage.getAddToCartProduct_Sauce_Labs_Bike_Light().click();;
+	}
+	
+	public void AddToCart_Sauce_Labs_Bolt_TShirt() {
+		homepage.getAddToCartProduct_Sauce_Labs_Bolt_TShirt().click();
+	}
+	
+	public void AddToCart_Sauce_Labs_Fleece_Jacket() {
+		homepage.getAddToCartProduct_Sauce_Labs_Fleece_Jacket().click();
+	}
+	
+	public void AddToCart_Sauce_Labs_Red_Tshirt() {
+		homepage.getAddToCartProduct_Sauce_Labs_Red_Tshirt().click();
+	}
+
+	public void AddToCart_Sauce_Labs_Onesie() {
+		homepage.getAddToCartProduct_Sauce_Labs_Onesie().click();
+	}
+
+	public void RemoveFromCard__Sauce_Labs_Backpack() {
+		homepage.getAddToCartProduct_Sauce_Labs_Backpack().click();
+	}
+	
+	public void RemoveFromCard_Sauce_Labs_Bike_Light() {
+		homepage.getAddToCartProduct_Sauce_Labs_Bike_Light().click();;
+	}
+	
+	public void RemoveFromCard_Sauce_Labs_Bolt_TShirt() {
+		homepage.getAddToCartProduct_Sauce_Labs_Bolt_TShirt().click();
+	}
+	
+	public void RemoveFromCard_Sauce_Labs_Fleece_Jacket() {
+		homepage.getAddToCartProduct_Sauce_Labs_Fleece_Jacket().click();
+	}
+	
+	public void RemoveFromCard_Sauce_Labs_Red_Tshirt() {
+		homepage.getAddToCartProduct_Sauce_Labs_Red_Tshirt().click();
+	}
+
+	public void RemoveFromCard_Sauce_Labs_Onesie() {
+		homepage.getAddToCartProduct_Sauce_Labs_Onesie().click();
+	}
+	
+	
 }
+
+
+
+
+
+
+
+
