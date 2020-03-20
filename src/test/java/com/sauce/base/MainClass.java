@@ -2,6 +2,7 @@ package com.sauce.base;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -44,6 +45,11 @@ public class MainClass extends BaseClass{
 		  Assert.assertEquals(true, cartpage.Sauce_Labs_Backpack().isDisplayed());
 		  Assert.assertEquals(true, cartpage.Sauce_Labs_Backpack_Remove().isDisplayed());
 		 		
+	}
+	
+	public void addSingleItemToCart() throws Exception {
+		addToCart(homepage.getAddToCartProduct_Sauce_Labs_Backpack());
+		Thread.sleep(1000);
 	}
 	
 	public void AddToCart__Sauce_Labs_Backpack() {

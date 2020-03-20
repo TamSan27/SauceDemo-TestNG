@@ -9,12 +9,11 @@ public class TestCases extends BaseClass {
 
 	MainClass  mainclass; 
 	
-	@Test (priority = 0)
-public void login() throws Exception {
+	public void login() throws Exception {
 	mainclass	= new MainClass();
 
 		mainclass.Login();
-     mainclass.SwagLabs();
+     mainclass.AddToCart__Sauce_Labs_Backpack();;
      mainclass.VerifyCartItems();
 	}
 
@@ -24,7 +23,12 @@ public void login() throws Exception {
 	 * @Test (priority = 1) public void verifyCart() { mainclass.VerifyCartItems();
 	 * }
 	 */
-	 
-	 
+	 @Test
+	public void addingoneElement() throws Exception {
+		mainclass	= new MainClass();
+		mainclass.Login();
+		mainclass.addSingleItemToCart();
+//		Thread.sleep(1000);
+	}
 
 }

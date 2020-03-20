@@ -3,6 +3,7 @@ package com.sauce.base;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -25,7 +26,9 @@ public class BaseClass {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 	
-	
+	public void addToCart(WebElement ele) {
+		ele.click();
+	}
 
 	
 	 @AfterTest 
