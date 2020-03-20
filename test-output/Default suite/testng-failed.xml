@@ -7,7 +7,9 @@
         <methods>
           <include name="open_browser"/>
           <include name="close_browser"/>
+          <include name="addToCart"/>
           <include name="verifyCart"/>
+          <include name="login"/>
         </methods>
       </class> <!-- com.sauce.testcases.TestCases -->
     </classes>

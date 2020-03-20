@@ -1,11 +1,16 @@
 package com.sauce.pages;
 
+import java.util.List;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import com.sauce.base.BaseClass;
 	
 	public class HomePage extends BaseClass{
+		
+		
+
 		//@FindBy(xpath="//button[@class=\"btn_primary btn_inventory\"])
 		//@FindBy(xpath = "//div//div[@class='inventory_list']//div[1]//div[3]//button[1]")
 		//@FindBy(xpath="//div[@class='inventory_item'][1]//button")
@@ -80,6 +85,9 @@ import com.sauce.base.BaseClass;
 		
 		@FindBy(xpath="//div[text()='Sauce Labs Backpack']//parent::a//following-sibling::div")
 		private WebElement  Text_Sauce_Labs_Onesie ;
+		
+		@FindBy(xpath="//button[text()='ADD TO CART']")
+		private List<WebElement> allItems;
 
 		public WebElement getAddToCartProduct_Sauce_Labs_Backpack() {
 			return AddToCartProduct_Sauce_Labs_Backpack;
@@ -176,6 +184,11 @@ import com.sauce.base.BaseClass;
 		public WebElement getText_Sauce_Labs_Onesie() {
 			return Text_Sauce_Labs_Onesie;
 		}
+
+		public List<WebElement> getAllItems() {
+			return allItems;
+		}
+
 
 	}
 

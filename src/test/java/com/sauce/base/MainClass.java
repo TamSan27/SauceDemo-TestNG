@@ -1,5 +1,7 @@
 package com.sauce.base;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -52,6 +54,14 @@ public class MainClass extends BaseClass{
 		Thread.sleep(1000);
 	}
 	
+	public void addMultipleItemCart() {
+		
+		List<WebElement> elements = homepage.getAllItems();
+		for(WebElement element:elements) {
+			addToCart(element);
+		}
+		
+	}
 	public void AddToCart__Sauce_Labs_Backpack() {
 		homepage.getAddToCartProduct_Sauce_Labs_Backpack().click();
 	}
