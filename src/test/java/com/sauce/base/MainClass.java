@@ -18,11 +18,13 @@ public class MainClass extends BaseClass{
 	HomePage addtocart;
 	CartPage cartpage;
 	CommonPage commonpage;
+	HomePage homepage;
 	public MainClass() {
 		loginpage = PageFactory.initElements(getDriver(), LoginPage.class);
 		addtocart = PageFactory.initElements(getDriver(), HomePage.class);
 		commonpage = PageFactory.initElements(getDriver(), CommonPage.class);
 		cartpage = PageFactory.initElements(getDriver(), CartPage.class);
+		homepage = PageFactory.initElements(getDriver(), HomePage.class);
 	}
 
 	public void Login() throws Exception 
