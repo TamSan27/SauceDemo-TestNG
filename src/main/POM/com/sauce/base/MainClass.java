@@ -21,13 +21,19 @@ public class MainClass extends BaseClass{
 	CartPage cartpage;
 	CommonPage commonpage;
 	HomePage homepage;
-	public MainClass() {
-		loginpage = PageFactory.initElements(getDriver(), LoginPage.class);
-		commonpage = PageFactory.initElements(getDriver(), CommonPage.class);
-		cartpage = PageFactory.initElements(getDriver(), CartPage.class);
-		homepage = PageFactory.initElements(getDriver(), HomePage.class);
-	}
+	/*
+	 * public MainClass() { loginpage = PageFactory.initElements(getDriver(),
+	 * LoginPage.class); commonpage = PageFactory.initElements(getDriver(),
+	 * CommonPage.class); cartpage = PageFactory.initElements(getDriver(),
+	 * CartPage.class); homepage = PageFactory.initElements(getDriver(),
+	 * HomePage.class); }
+	 */
 
+	public MainClass(WebDriver driver) {
+		
+		this.driver = driver;
+		
+	}
 	public void Login() throws Exception 
 	{
 		loginpage.getUserName().sendKeys("standard_user");

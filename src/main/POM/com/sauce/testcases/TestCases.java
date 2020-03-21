@@ -14,7 +14,7 @@ public class TestCases extends BaseClass {
  
 	
 	public void login() throws Exception {
-	mainclass	= new MainClass();
+	mainclass	= new MainClass(driver);
 
 		mainclass.Login();
      mainclass.AddToCart__Sauce_Labs_Backpack();
@@ -23,7 +23,7 @@ public class TestCases extends BaseClass {
 	
 	 @Test
 	public void addingoneElement() throws Exception {
-		mainclass	= new MainClass();
+		mainclass	= new MainClass(driver);
 		mainclass.Login();
 	//	mainclass.addSingleItemToCart();
 		mainclass.addMultipleItemCart();

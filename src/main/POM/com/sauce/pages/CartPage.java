@@ -21,5 +21,22 @@ public class CartPage {
 		return Sauce_Labs_Backpack_Remove;
 	}
 	
+	public void cartItems(String Item) {
+		switch(Item)
+		{
+		
+		case "Sauce_Labs_Backpack":
+			xpath = "//div[text()='Sauce Labs Backpack']";
+			break;
+		case "Sauce_Labs_Backpack_Remove":
+			xpath = "//div[text()='Sauce Labs Backpack']//parent::a//parent::div//following-sibling::div//button";
+			break;
+			
+			default:
+				
+		}
+		
+		}
+		
 	
 }

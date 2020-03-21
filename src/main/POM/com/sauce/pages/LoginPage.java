@@ -1,12 +1,18 @@
 package com.sauce.pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import com.sauce.base.BaseClass;
 
 public class LoginPage extends BaseClass{
+	
+	public LoginPage(WebDriver driver) {
+		this.driver = driver;
+		
+	}
 	
 	@FindBy(xpath="//*[@id='user-name']")
 	private WebElement userName ;
