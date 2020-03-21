@@ -1,4 +1,4 @@
-package com.sauce.base;
+ package com.sauce.base;
 
 import java.util.List;
 
@@ -56,6 +56,7 @@ public class MainClass extends BaseClass{
 	
 	public void addRandomSingleItem(String item) {
 		addToCart(ele);
+		System.out.println("aaa");
 	}
 	
 	public void addMultipleItemCart() {
