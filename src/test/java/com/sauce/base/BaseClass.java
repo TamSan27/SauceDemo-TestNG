@@ -31,6 +31,7 @@ public class BaseClass {
 	}
 
 	
+	
 	 @AfterTest 
 	 public void close_browser() {
 		 getDriver().close(); 

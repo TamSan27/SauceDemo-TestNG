@@ -54,6 +54,10 @@ public class MainClass extends BaseClass{
 		Thread.sleep(1000);
 	}
 	
+	public void addRandomSingleItem(String item) {
+		addToCart(ele);
+	}
+	
 	public void addMultipleItemCart() {
 		
 		List<WebElement> elements = homepage.getAllItems();
