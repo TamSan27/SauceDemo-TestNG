@@ -54,10 +54,10 @@ public class MainClass extends BaseClass{
 		Thread.sleep(1000);
 	}
 	
-	public void addRandomSingleItem(String item) {
-		addToCart(ele);
-		System.out.println("aaa");
-	}
+	/*
+	 * public void addRandomSingleItem(String item) { addToCart(ele);
+	 * System.out.println("aaa"); }
+	 */
 	
 	public void addMultipleItemCart() {
 		
