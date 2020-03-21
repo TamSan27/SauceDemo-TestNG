@@ -17,7 +17,7 @@ public class TestCases extends BaseClass {
 	mainclass	= new MainClass();
 
 		mainclass.Login();
-     mainclass.AddToCart__Sauce_Labs_Backpack();;
+     mainclass.AddToCart__Sauce_Labs_Backpack();
      mainclass.VerifyCartItems();
 	}
 	
