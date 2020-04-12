@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34916" started-at="2020-03-20T08:03:36 IST" finished-at="2020-03-20T08:04:11 IST">
+  <suite name="Default suite" duration-ms="14056" started-at="2020-04-12T09:54:37 IST" finished-at="2020-04-12T09:54:51 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34916" started-at="2020-03-20T08:03:36 IST" finished-at="2020-03-20T08:04:11 IST">
+    <test name="Default test" duration-ms="14056" started-at="2020-04-12T09:54:37 IST" finished-at="2020-04-12T09:54:51 IST">
       <class name="com.sauce.testcases.TestCases">
-        <test-method status="PASS" signature="open_browser()[pri:0, instance:com.sauce.testcases.TestCases@63e2203c]" name="open_browser" is-config="true" duration-ms="22378" started-at="2020-03-20T08:03:36 IST" finished-at="2020-03-20T08:03:59 IST">
+        <test-method status="PASS" signature="open_browser()[pri:0, instance:com.sauce.testcases.TestCases@1c3a4799]" name="open_browser" is-config="true" duration-ms="8123" started-at="2020-04-12T09:54:37 IST" finished-at="2020-04-12T09:54:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open_browser -->
-        <test-method status="PASS" signature="addingoneElement()[pri:0, instance:com.sauce.testcases.TestCases@63e2203c]" name="addingoneElement" duration-ms="11577" started-at="2020-03-20T08:03:59 IST" finished-at="2020-03-20T08:04:11 IST">
+        <test-method status="PASS" signature="addingoneElement()[pri:0, instance:com.sauce.testcases.TestCases@1c3a4799]" name="addingoneElement" duration-ms="5782" started-at="2020-04-12T09:54:46 IST" finished-at="2020-04-12T09:54:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addingoneElement -->
-        <test-method status="PASS" signature="close_browser()[pri:0, instance:com.sauce.testcases.TestCases@63e2203c]" name="close_browser" is-config="true" duration-ms="369" started-at="2020-03-20T08:04:11 IST" finished-at="2020-03-20T08:04:11 IST">
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:com.sauce.testcases.TestCases@1c3a4799]" name="close_browser" is-config="true" duration-ms="100" started-at="2020-04-12T09:54:51 IST" finished-at="2020-04-12T09:54:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close_browser -->

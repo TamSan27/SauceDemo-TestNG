@@ -9,6 +9,8 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class BaseClass {
 
 	protected static WebDriver driver;
@@ -19,8 +21,8 @@ public class BaseClass {
 
 	@BeforeTest
 	public void open_browser() {
-		System.setProperty("webdriver.chrome.driver",
-				System.getProperty("user.home") + "\\git\\SauceDemo-TestNG\\drivers\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver",System.getProperty("user.home") + "\\git\\SauceDemo-TestNG\\drivers\\chromedriver.exe");
+		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		getDriver().get("https://www.saucedemo.com/");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

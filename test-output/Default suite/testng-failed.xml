@@ -6,10 +6,8 @@
       <class name="com.sauce.testcases.TestCases">
         <methods>
           <include name="open_browser"/>
+          <include name="addingoneElement"/>
           <include name="close_browser"/>
-          <include name="addToCart"/>
-          <include name="verifyCart"/>
-          <include name="login"/>
         </methods>
       </class> <!-- com.sauce.testcases.TestCases -->
     </classes>
